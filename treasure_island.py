@@ -24,19 +24,19 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 
-first_dec = input("Choose ... left or right\n")
+first_dec = input("You arrive to the kong island choose ... left or right\n")
 if first_dec.lower() == "left":
-  print("you are in the right direction\n")
+  print("you are in the right direction continue across the woods\n")
 else:
   print("You fall into a hole. Game over\n")
   
-second_dec = input("swim or wait\n")  
+second_dec = input("You are in front of a river would you like to swim or wait\n")  
 if second_dec.lower() == "wait":
-  print("You are in the right direction\n")
+  print("You see a little boat,you will use it to cross the river\n")
 else:
   print("You are attacked by a trout. Game over\n")
   
-third_dec = input("Which door? Red, Blue or Yellow\n")
+third_dec = input("You are on the other side of the river when some magic doors appear. Which door? Red, Blue, or Yellow?\n")
 if third_dec.lower() == "yellow":
   print("You win take the gold!\n")
 elif third_dec.lower() == "red":
